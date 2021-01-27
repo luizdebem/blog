@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  padding: 15px;
+}
+
+.blogTitle {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogTitle img {
+  border-radius: 50%;
+  width: 75px;
+}
+
+.blogTitle span {
+  font-size: 1.8rem;
+  margin-left: 15px;
+}
+
+.socialStuff {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  font: 2rem;
+}
+
+.socialStuff i {
+  padding: 10px;
+}
