@@ -9,9 +9,9 @@ const Header = () => {
         <span>Luiz Guilherme</span>
       </div>
       <div className={headerStyles.socialStuff}>
-        <i class="fab fa-github-square"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fas fa-envelope-square"></i>
+        <i className="fab fa-github-square"></i>
+        <i className="fab fa-linkedin"></i>
+        <i className="fas fa-envelope-square"></i>
       </div>
     </header>
   )

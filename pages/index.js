@@ -1,7 +1,19 @@
-export default function Home() {
+import PostList from '../components/PostList';
+
+export default function Home({ posts }) {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <PostList posts={posts} />
+    </>
   )
+}
+
+export async function getStaticProps() {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=6');
+  const posts = await res.json();
+  return {
+    props: {
+      posts
+    }
+  }
 }
