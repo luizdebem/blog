@@ -25,9 +25,9 @@
   width: 50%;
   justify-content: center;
   align-items: center;
-  font: 2rem;
+  font-size: 2rem;
 }
 
-.socialStuff i {
-  padding: 10px;
+.socialStuff a {
+  margin: 10px;
 }
