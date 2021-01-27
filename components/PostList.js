@@ -4,12 +4,19 @@ import postListStyle from '../styles/PostList.module.css';
 
 const PostList = ({ posts }) => {
   return (
-    <div className={postListStyle.postListContainer}>
-      {posts.posts.map(post => {
-        return (
-          <Post post={post} />
-        );
-      })}
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          {posts.posts.map((post, index) => {
+            return (
+              <>
+                <Post post={post} />
+                {index < (posts.posts.length -1) && <div style={{ textAlign: 'center' }}><b> &lt;/&gt; </b></div>}
+              </>
+            );
+          })}
+        </div>
+      </div>
     </div>
   )
 }
