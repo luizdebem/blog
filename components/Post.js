@@ -7,7 +7,7 @@ const Post = ({ post }) => {
   const time = moment(post.created_at).format('LT');
   return (
     <div className={postStyles.postContainer}>
-      <h1 className={postStyles.postTitle}>{post.title}</h1> <span className={postStyles.postInfo}>por {post.primary_author.name} em {createdAt} às {time}</span>
+      <h1 className={postStyles.postTitle}>{post.title}</h1> <span className={postStyles.postInfo}>{post.primary_author.name} - {createdAt} {time}</span>
       <div className={postStyles.postBody} dangerouslySetInnerHTML={{ __html: post.html }}></div>
     </div>
   )

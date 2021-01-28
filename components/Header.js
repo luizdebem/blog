@@ -6,7 +6,7 @@ const Header = () => {
     <header className={headerStyles.header}>
       <div className={headerStyles.blogTitle}>
         <img src="https://avatars.githubusercontent.com/u/37565843?s=400&u=25228add319047862c1b98724ab4a40bd5c18752&v=4" alt="Luiz" className={headerStyles.photo} />
-        <span>Luiz Guilherme</span>
+        <span>luizdebem</span>
       </div>
       <div className={headerStyles.socialStuff}>
         <a href="https://github.com/luizdebem" target="_blank"><i className="fab fa-github-square"></i></a>

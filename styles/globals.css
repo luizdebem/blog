@@ -21,3 +21,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.post-list-container {
+  max-width: 50%;
+}
+
+main.layout-main {
+  background-color: #fdfdfd;
+}
+
+@media only screen and (max-width: 780px) {
+  .post-list-container {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .post-list-container {
+    max-width: 100%;
+  }
+}

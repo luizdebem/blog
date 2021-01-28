@@ -31,3 +31,13 @@
 .socialStuff a {
   margin: 10px;
 }
+
+@media only screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .blogTitle, .socialStuff {
+    width: 100%;
+  }
+}
