@@ -13,11 +13,13 @@
 .blogTitle img {
   border-radius: 50%;
   width: 75px;
+  cursor: pointer;
 }
 
 .blogTitle span {
   font-size: 1.8rem;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .socialStuff {
