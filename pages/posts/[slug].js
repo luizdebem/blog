@@ -44,5 +44,5 @@ export async function getStaticProps({ params }) {
   const post = await res.json()
 
   // Pass post data to the page via props
-  return { props: { post: post.posts[0] } }
+  return { props: { post: post.posts[0] }, revalidate: 600 }
 }
